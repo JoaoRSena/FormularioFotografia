@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="form-image">
+        <img src="fotoperfil.svg">
+      </div>
+
+    <div class="form">
+      <form action="#">
+        <div class="form-heder">
+          <div class="title">
+            <h1><strong>Faça seu orçamento</strong></h1>
+          </div>
+
+        </div>
+
+        <div class="input-group">
+          <div class="input-box">
+            <label for="firstname"><strong>Primeiro Nome</strong></label>
+            <input id="firstname" type="text" name="firstname" placeholder="Primeiro nome" required>
+          </div>
+
+          <div class="input-box">
+            <label for="lastname"><strong>Sobrenome</strong></label>
+            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+          </div>
+
+          <div class="input-box">
+            <label for="email"><strong>Email</strong></label>
+            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+          </div>
+
+          <div class="input-box">
+            <label for="number"><strong>Celular</strong></label>
+            <input id="number" type="tel" name="number" placeholder="(xx) xxxxxx-xxxx" required>
+          </div>
+        </div>
+
+         <div class="gender-inputs">
+          <div class="gender-title">
+            <h3><strong>Gênero</strong></h3>
+          </div>
+
+          <div class="gender-group">
+            <div class="gender-input">
+              <input type="radio" id="female" name="gender">
+              <label for="famele">Feminino</label>
+            </div>
+
+            <div class="gender-input">
+              <input type="radio" id="male" name="gender">
+              <label for="mele">Masculino</label>
+            </div>
+
+            <div class="gender-input">
+              <input type="radio" id="others" name="gender">
+              <label for="others">Outros</label>
+            </div>
+          </div>
+         </div>
+         <br>
+
+        <div class="gender-services">
+            <div class="type-services">
+             <label class="gender-title"><h3><strong>Serviço que deseja contratar</strong></h3></label>
+            </div>
+
+          <div class="services">
+            <div class="input-ensaio">
+              <input type="checkbox" id="ensaio" name="gender">
+              <label for="ensaio">Ensaio</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="aniversairo" name="gender">
+              <label for="aniversario">Aniversário</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="debutante" name="gender">
+              <label for="debutante">Debutante</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="casamento" name="gender">
+              <label for="casamento">Casamento</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="institucional" name="gender">
+              <label for="instituciona">Institucional</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="imobiliario" name="gender">
+              <label for="imobiliario">Imobiliário</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="stell" name="gender">
+              <label for="stell">Stell</label>
+            </div>
+
+            <div class="input-ensaio">
+              <input type="checkbox" id="formatura" name="gender">
+              <label for="formatura">Formatura</label>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div class="data">
+          <label for="data" class="gender-title"><h3><strong>Data do evento</strong></h3></label>
+       </div>
+
+        <div class="data-calendario">
+          <input type="date" id="data" name="data">
+        </div>
+
+        <div class="continue-button">
+          <button><a href="#">Enviar</a></button>
+        </div>
+      </div>
+            </form>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'dm sans', 'montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9168aa ;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.container:hover {
+    transform: scale(0.98);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(78, 21, 184, 0.3);
+   }
+   
+ .form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9168aa;
+    padding: 1rem;
+    margin-top: 102px;
+}
+
+.form-image img{
+    width: 31.9rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c397df;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: aliceblue;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 35px;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-right: 10px;
+}
+
+.input-box input{
+    margin: 0.5rem 0;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 10px 5px 15px 5px;
+    box-shadow: 1px 1px 6px #001c;
+}
+
+.input-box input:hover{
+    background-color: #b1b0e6;
+}
+
+.input-box input:focus-visible{
+    outline: 2px solid #9168aa;
+}
+
+.input-box label, .gender-title h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #00001c;
+}
+
+.input-box input::placeholder{
+    color:#00001c;
+}
+
+.gender-group{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.services{
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services > div {
+    display: inline-flex 100px;
+}
+
+
+.data-calendario {
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gender-input input{
+    margin-right: 0.35rem;
+}
+
+.continue-button button{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #ffffff;
+    padding: 0.62rem;
+    border-radius: 10px 5px 15px 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover{
+    background-color: #9168aa;
+}
+
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #00001c;
+}
+
+@media screen and (max-width: 1200px) {
+    .form-image {
+        display: none;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+
+    .gender-group {
+        flex-direction: column;
+    }
+    
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+}  
+ 
