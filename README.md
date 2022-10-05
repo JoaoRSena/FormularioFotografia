@@ -8,7 +8,7 @@ Formulário para facilitar cominicação entre cliente e profissional.
 | :label: Tecnologias | html, css (tecnologias utilizadas)
 
 <div aligner="center">
-<img src="https://user-images.githubusercontent.com/89817889/193363223-831c3d04-076c-4881-99d4-028fe6714092.jpg">
+![](https://user-images.githubusercontent.com/89817889/193363223-831c3d04-076c-4881-99d4-028fe6714092.jpg#vitrinedev)
 </div>
 
 ## Detalhes do projeto
