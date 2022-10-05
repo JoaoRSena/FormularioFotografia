@@ -7,9 +7,9 @@ Formulário para facilitar cominicação entre cliente e profissional.
 | :sparkles: Nome        | **Formulário para orçamento Fotográfico**
 | :label: Tecnologias | html, css (tecnologias utilizadas)
 
-<div aligner="center">
-![](https://user-images.githubusercontent.com/89817889/193363223-831c3d04-076c-4881-99d4-028fe6714092.jpg#vitrinedev)
-</div>
+
+
+
 
 ## Detalhes do projeto
 
@@ -48,3 +48,5 @@ Foi necessário modificar a imagem iniciando com a class="form-image" seguido de
 </div>
 
 ![](https://user-images.githubusercontent.com/89817889/193363286-a179d694-9cf3-4737-a006-4ecf3f65975a.jpg) #vitrinedev
+
+![](https://user-images.githubusercontent.com/89817889/193363223-831c3d04-076c-4881-99d4-028fe6714092.jpg#vitrinedev)
