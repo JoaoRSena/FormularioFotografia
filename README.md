@@ -47,4 +47,4 @@ Foi necessário modificar a imagem iniciando com a class="form-image" seguido de
   <img scr="https://user-images.githubusercontent.com/89817889/193364080-0e0c2ee3-339f-41e9-ac2c-d34a049449fd.png">
 </div>
 
-![](https://user-images.githubusercontent.com/89817889/193363286-a179d694-9cf3-4737-a006-4ecf3f65975a.jpg#vitrinedev)
+![](https://user-images.githubusercontent.com/89817889/193363286-a179d694-9cf3-4737-a006-4ecf3f65975a.jpg) #vitrinedev
