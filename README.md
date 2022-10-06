@@ -5,7 +5,7 @@ Formulário para facilitar cominicação entre cliente e profissional.
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Formulário para orçamento Fotográfico**
-| :label: Tecnologias | html, css (tecnologias utilizadas)
+| :label: Tecnologias | html, css
 
 
 
